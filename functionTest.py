@@ -3,5 +3,9 @@
 #Using git Example
 
 def up(int x):
-    print ("x: " x)
-    return x
+    print ("x+1: " (x+1))
+    return x + 1
+
+def down(x):
+    print ("-x: " (x-1))
+    return x-1
