@@ -8,6 +8,7 @@
 public class Prog1Test
 {
     public static void main(String[] args){
-        System.out.println("Testing one two...");
+        System.out.println("Success! Successfully reverted commit!");
+        //Added a comment
     }
 }
