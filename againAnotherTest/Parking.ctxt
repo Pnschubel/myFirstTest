@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=drive\ road
+comment0.target=java.util.Stack\ removeCar(java.util.Stack,\ java.util.Stack)
+comment0.text=\n\ Removes\ car\ from\ driveway,\ putting\ cars\ into\ the\ street\ as\ necessary\n\ @param\ \ \ Stack<Integer>\ drive\ \ \ \ cars\ in\ driveway\n\ \ \ \ \ \ \ \ \ \ Stack<Integer>\ road\ \ \ \ \ cars\ in\ street\n\ \ \ \ \ \ \ \ \ \ int\ liscence\ \ \ \ \ \ \ \ \ \ \ \ car\ you\ wanna\ remove\n\ @return\ \ Stack<Integers>\ cars\ in\ driveway\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
