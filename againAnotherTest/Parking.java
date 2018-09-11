@@ -38,6 +38,7 @@ public class Parking
         }
         return drive;
     }
+
     
     //Gets cars in and out of driveway
     public static void main (String[] args){
@@ -60,8 +61,12 @@ public class Parking
             
             //If positive liscense, adds the car to the drive.
             if (choice > 0){
-                System.out.println("Adding car to drive...");
-                driveway.push(choice);
+                if (!driveway.contains(choice)){
+                    System.out.println("Adding car to drive...");
+                    driveway.push(choice);
+                }else{
+                    System.out.println("Car " + choice + " is already in driveway.");
+                }
             }
             //If negative liscense, removes car from drive.
             if (choice < 0){
