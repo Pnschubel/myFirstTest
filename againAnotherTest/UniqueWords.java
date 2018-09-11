@@ -12,23 +12,40 @@ public class UniqueWords
    public static void main(String[] args)
       throws FileNotFoundException
    {
-      // Read the dictionary and the document
-      Set<String> UniqueWords = readWords("words");
-      Set<String> documentWords = readWords("alice30.txt");
-
-
-      // Print all words that are in the document but not the dictionary
+      //Reads the file, cleaning it up and putting individuals words into a set.
+      Set<String> UniqueWords = readWords("retrievedRefomation.txt"); //#yesIknowImisspeltthetitledon'tjudgeme
 
       for (String word : UniqueWords)
       {
          System.out.println(word);
       }
       
-      //Prints
+      //Prints the size of the set (the # of unique words
+      System.out.println("\n\nNumber of Unique Words: " + UniqueWords.size());
    }
    
-   //MUST MAKE CLEAN METHOD
+   /**
+    * Cleans all unnecessary characters
+    * @param String string -- the string to be cleaned up
+    * @return String -- the cleaned up string
+    */
+   private static String clean(String string){
+       //makes string for cleaned up words
+       String cleanerString = "";
+       char c;
+       for (int i = 0; i < string.length(); i++){
+           c = string.charAt(i);
 
+           //Will add the character to the cleaner string if char is proper character.
+           if (Character.isLetter(c)){
+               cleanerString += c;
+            }
+        }
+        
+       //returns the cleaner string
+       return cleanerString;
+    }
+   
    /**
       Reads all words from a file.
       @param filename the name of the file
@@ -37,16 +54,13 @@ public class UniqueWords
    public static Set<String> readWords(String filename)
       throws FileNotFoundException
    {
+       //Gets the file
        Set<String> words = new TreeSet<>();
        Scanner scan = new Scanner(new File(filename));
-       
-       //Cleans file of unnecessary characters
-       scan.clean();
-       
-       //Use any characters other than a-z or A-Z as delimiter
-       scan.useDelimiter("[^a-zA-Z]");
+
+       //Puts all words in a set.
        while(scan.hasNext()){
-           words.add(scan.next().toUpperCase());
+           words.add(clean(scan.next().toUpperCase()));
         }
        return words;
    }

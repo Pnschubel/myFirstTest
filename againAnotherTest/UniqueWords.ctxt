@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=string
+comment1.target=java.lang.String\ clean(java.lang.String)
+comment1.text=\n\ Cleans\ all\ unnecessary\ characters\n\ @param\ String\ string\ --\ the\ string\ to\ be\ cleaned\ up\n\ @return\ String\ --\ the\ cleaned\ up\ string\n
+comment2.params=filename
+comment2.target=java.util.Set\ readWords(java.lang.String)
+comment2.text=\n\ \ \ \ \ \ Reads\ all\ words\ from\ a\ file.\n\ \ \ \ \ \ @param\ filename\ the\ name\ of\ the\ file\n\ \ \ \ \ \ @return\ a\ Set\ with\ all\ unique\ words\ of\ the\ file\ in\ it.\n
+numComments=3
