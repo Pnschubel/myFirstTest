@@ -1,0 +1,38 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/usr/share/bluej/userlib/pi4j-service.jar:/usr/share/bluej/userlib/pi4j-device.jar:/usr/share/bluej/userlib/pi4j-core.jar:/usr/share/bluej/userlib/pi4j-gpio-extension.jar:/home/pi/ch15_e11_p22/ch15Programs
+-d
+/home/pi/ch15_e11_p22/ch15Programs/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/home/pi/ch15_e11_p22/ch15Programs/Grid.java
+<---- end of javadoc command ---->
+Loading source file /home/pi/ch15_e11_p22/ch15Programs/Grid.java...
+/home/pi/ch15_e11_p22/ch15Programs/Grid.java:18: error: illegal start of expression
+      . . .
+      ^
+/home/pi/ch15_e11_p22/ch15Programs/Grid.java:18: error: illegal start of expression
+      . . .
+        ^
+/home/pi/ch15_e11_p22/ch15Programs/Grid.java:18: error: ';' expected
+      . . .
+         ^
+3 errors

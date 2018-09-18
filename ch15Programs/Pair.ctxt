@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=row\ column
+comment0.target=Pair(int,\ int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Pair\n\ @param\ int\ row\ --\ the\ row\ number\ of\ the\ Pair\n\ @param\ int\ column\ --\ the\ column\ number\ of\ the\ Pair\n\ The\ fill\ number\ is\ originally\ set\ to\ zero,\ standing\ for\ 'unfilled'\n
+comment1.params=location
+comment1.target=Pair\ sidePair(char)
+comment1.text=\n\ Returns\ the\ Pair\ of\ coordinates\ for\ the\ location\ N,\ S,\ E,\ W\ (depending)\ of\ this\ pair.\n\ @precondition\ in\ the\ direction\ called,\ the\ coordinate\ exists.\n\ \n\ @param\ char\ --\ the\ direction\ (will\ be\ 'n'/'N',\ 'e'/'E',\ 's'/'S',\ or\ 'w'/'W')\n\ @return\ Pair\ --\ the\ coordinate\ pair\ of\ on\ that\ side\ of\ this\ current\ pair\n
+comment2.params=
+comment2.target=int\ getRow()
+comment2.text=\n\ Returns\ the\ row\ number\ of\ the\ Pair\ class.\n\ @param\ none\n\ @return\ int\ the\ row\ number\n
+comment3.params=
+comment3.target=int\ getColumn()
+comment3.text=\n\ Returns\ the\ column\ number\ of\ the\ Pair\ class.\n\ @param\ none\n\ @return\ int\ the\ column\ number\n
+comment4.params=
+comment4.target=int[]\ getCoordinates()
+comment4.text=\n\ Returns\ the\ row\ and\ column\ of\ the\ Pair\ class.\n\ @param\ none\n\ @return\ int[2]\ row,\ column\ pair\n
+numComments=5
