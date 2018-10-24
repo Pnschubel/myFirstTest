@@ -1,3 +1,4 @@
 Testing branch dynamics with paytoTest
 
 Hopefully this works.
+EDIT: I am currently on the paytoTestBranch. So this is the bit that needs to function. Let's see...
